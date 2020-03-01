@@ -2,8 +2,8 @@
     <string name="app_name">WakeUpScreen</string>
     <string name="home">Home</string>
     <string name="setting">Impostazioni</string>
-    <string name="open">apri</string>
-    <string name="close">chiudi</string>
+    <string name="open">Apri</string>
+    <string name="close">Chiudi</string>
     <string name="ok">OK</string>
     <string name="language">Lingua</string>
     <string name="language_zh_cn">Cinese Semplificato</string>
@@ -11,7 +11,7 @@
     <string name="language_it">Italiano</string>
     <string name="clear_all">Cancella</string>
     <string name="save">Salva</string>
-    <string name="mail_title">[Domanda] [Wake Up Screen] scrivi il titolo qui</string>
+    <string name="mail_title">[Domanda] [Wake Up Screen] Scrivi il titolo qui</string>
 
 
     <!--action-->
@@ -19,13 +19,13 @@
     <string name="click_to_open">Click per aprire</string>
     <string name="to_setting">All\'impostazione</string>
     <string name="how_to_set">Come impostare</string>ß
-    <string name="already_open">Già aperto</string>
-    <string name="already_close">Già chiuso</string>
-    <string name="i_already_close">Già chiuso</string>
-    <string name="not_open">non aperto</string>
-    <string name="not_close">non chiuso</string>
-    <string name="wanna_close">Chiudi</string>
-    <string name="wanna_open">Apri</string>
+    <string name="already_open">Attivo</string>
+    <string name="already_close">Disattivato</string>
+    <string name="i_already_close">Disattivato</string>
+    <string name="not_open">Attivato</string>
+    <string name="not_close">Disattivato</string>
+    <string name="wanna_close">Disattivato</string>
+    <string name="wanna_open">Attivato</string>
     <string name="set_up_successfully">Configurato con successo!</string>
 
     <!--other-->
@@ -36,26 +36,25 @@
         \"unchecked\"\n\nNote: Please turn off [Disable Screen Reminder] for Samsung mobile phone or set it to \"Click
         to display\"
     </string>
-    <string name="tip_desc_time_cost">Turning notification on or off will take 1~10 seconds to take effect.\n Please
-        wait patiently.
+    <string name="tip_desc_time_cost">La notifica di accensione o spegnimento richiederà 1~10 secondi per avere effetto.\nAspetta pazientemente.
     </string>
     <string name="developing">Developing</string>
     <string name="permission_of_read_notification">Leggi l\'autorizzazione di notifica</string>
-    <string name="service_of_background">Background Services</string>
+    <string name="service_of_background">Servizio in Background</string>
     <string name="time_of_wake_up_screen">Tempo di schermo acceso</string>
     <string name="optimize_of_battery_saver">Disattiva l\'ottimizzazione della batteria</string>
-    <string name="pocket_mode">Pocket Mode</string>
-    <string name="ongoing_status">Optimize Ongoing Notify</string>
+    <string name="pocket_mode">Modalità tasca</string>
+    <string name="ongoing_status">Ottimizza la notifica</string>
     <string name="current_mode">Modalità</string>
     <string name="all_pass">Tutte le notifiche</string>
     <string name="white_list">Modalità whitelist</string>
-    <string name="white_list_page">Whitelist Setting Page</string>
-    <string name="black_list">Blacklist mode</string>
-    <string name="black_list_page">Blacklist Setting Page</string>
+    <string name="white_list_page">Pagina impostazioni whitelist</string>
+    <string name="black_list">Modalità blacklist</string>
+    <string name="black_list_page">Pagina impostazioni blacklist</string>
     <string name="project_address">Open Source Project</string>
     <string name="feedback">Feedback</string>
-    <string name="debug_mode">Modalità Debug</string>
-    <string name="debug_mode_entry">Debug Page</string>
+    <string name="debug_mode">Modalità di Debug</string>
+    <string name="debug_mode_entry">Pagina di Debug</string>
     <string name="click_to_enter_debug_page">Click here to enter Debug Page</string>
     <string name="click_to_enter_white_list_page">Click here to enter Whitelist Page</string>
     <string name="click_to_enter_black_list_page">Click here to enter Blacklist Page</string>
@@ -63,30 +62,33 @@
         corresponding to all notifications received\n. If an unexpected situation occurs \nsuch as an abnormal light on
         the screen\nplease take a screenshot of the page and contact the author to solve it\n
     </string>
-    <string name="white_list_hints">The screen will only wake up when it receives a notification from selected
-        apps.
-    </string>
-    <string name="black_list_hints">The screen will not wake up when it receives a nofification from selected apps</string>
+    <string name="white_list_hints">Lo schermo si riattiva solo quando riceve una notifica da queste applicazioni.</string>
+    <string name="black_list_hints">Lo schermo non si riattiva solo quando riceve una notifica da queste applicazioni.</string>
 
 
-    <string name="custom">Custom</string>
+    <string name="custom">Personalizzate</string>
     <string name="about">Info</string>
     <string name="debug">Debug</string>
     <string name="advanced_setting">Impostazioni avanzate</string>
-    <string name="about_this_app">info su Wake Up Screen</string>
-    <string name="app_info">App Info</string>
+    <string name="about_this_app">Info su Wake Up Screen</string>
+    <string name="app_info">Informazioni sull\'app</string>
     <string name="info">Info</string>
     <string name="app_introduce">App Intro</string>
     <string name="give_star">Valuta cinque stelle</string>
     <string name="click_here_to_open_google_play_store">Fai clic qui per aprire Google Play Store</string>
 
     <string name="app_intro_full">Questa è un applicazione Android che permette al telefono di risvegliarsi quando riceve una notifica.\nOttimizzato specialmente per il Samsung S10.\nCompatibile con altri dispositivi.E\' open source, senza accesso a internet, e gratis.</string>
-    <string name="sleep_mode_open_desc">"The screen will not wake between "</string>
-    <string name="sleep_mode">Sleep Mode</string>
-    <string name="delay_to_wakeup">Fare clic qui per iniziare il test di riattivazione</string>
-    <string name="click_here_and_press_power_button_within_10_sec">Click here and press power button within 5 seconds</string>
-    <string name="sleep_time">Sleep Time</string>
+    <string name="sleep_mode_open_desc">"Lo schermo non si svegliera\' tra "</string>
+    <string name="sleep_mode">Modalità risparmio</string>
+    <string name="delay_to_wakeup">Fai clic qui per iniziare \nil test di riattivazione</string>
+    <string name="click_here_and_press_power_button_within_10_sec">Clicca qui e premi il pulsante di accensione entro 5 secondi</string>
+    <string name="sleep_time">Modalità risparmio</string>
     <string name="dnd_detect_title">Rilevamento Non Disturbare</string>
-    <string name="dnd_detect_desc">Close it if you want to wake up  in DND mode.</string>
+    <string name="dnd_detect_desc">Disattiva se vuoi che si attivi lo schermo in modalità Non Disturbare.</string>
+    <string name="wake_hint_before">Lo schermo si sveglia</string>
+    <string name="seconds">secondo</string>
+    <string name="wake_up_time_limitaon_desc">Avviso: \nin molti dispositivi, questa impostazione non funzionerà correttamente. \nQuesta è una limitazione del sistema.</string>
+    <string name="invalid_number">Numero non valido</string>
+    <string name="saved_successfully">Salvato con successo</string>
 
 </resources>
